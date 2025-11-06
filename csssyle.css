@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2cm; 
+    background: #fff;
+    color: #111;
+  }
+
+  .page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1cm;
+  }
+
+  .authors-list {
+    list-style-type: upper-alpha;
+    padding: 1rem 1.5rem;
+    margin: 0 auto 1cm auto;
+    max-width: 640px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #fafafa;
+    box-sizing: border-box;
+  }
+
+  .authors-list li {
+    font-weight: bold; 
+    padding: 0.35rem 0;
+    line-height: 1.4;
+  }
+
+  .member-data {
+    font-weight: bold;
+    display: block;
+    font-size: 1rem;
+  }
+
+  /* New section for links */
+  .links-list {
+    list-style-type: decimal;
+    padding: 1rem 1.5rem;
+    margin: 0 auto;
+    max-width: 640px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #fafafa;
+    box-sizing: border-box;
+  }
+
+  .links-list li {
+    padding: 0.4rem 0;
+    font-size: 1rem;
+  }
+
+  .links-list a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .links-list a:hover {
+    text-decoration: underline;
+  }
