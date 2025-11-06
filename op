@@ -1,0 +1,15 @@
+3. create an image page 
+
+
+a. A centered page title with  1 cm margin below
+b. five iages from the internet,all the same size (width and height) , with 1 cm spacing between them and a border around each image
+c. eah image should be  a hyperlink to a related wikipedia article
+
+
+
+<!DOCTYPE html>
+<html lang="pl">
+    <meta cherset="utf-8" />
+    <title>Image Page</title>
+    <meta name="viewport"
+</html>

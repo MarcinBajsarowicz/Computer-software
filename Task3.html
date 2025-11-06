@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 1cm;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 1cm;
+            margin-top: 1cm;
+        }
+
+        .image-container a {
+            display: inline-block;
+            border: 2px solid #000;
+            padding: 5px;
+        }
+
+        .image-container img {
+            width: 200px;  /* Set width and height for uniformity */
+            height: 200px;
+            object-fit: cover;  /* Ensure the image fits within the box */
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    
+    <div class="image-container">
+        <a href="https://en.wikipedia.org/wiki/Elephant">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Elephant_in_Ranthambore_National_Park.jpg/500px-Elephant_in_Ranthambore_National_Park.jpg" alt="Elephant">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Lion">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Big_Lion.jpg/500px-Big_Lion.jpg" alt="Lion">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Tiger">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Siberian_Tiger_%28Panthera_tigris_altaica%29.jpg/500px-Siberian_Tiger_%28Panthera_tigris_altaica%29.jpg" alt="Tiger">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Giraffe">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Giraffes_in_Masai_Mara%2C_Kenya.jpg/500px-Giraffes_in_Masai_Mara%2C_Kenya.jpg" alt="Giraffe">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Zebra">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Zebra_in_the_Masai_Mara.jpg/500px-Zebra_in_the_Masai_Mara.jpg" alt="Zebra">
+        </a>
+    </div>
+</body>
+</html>
+
